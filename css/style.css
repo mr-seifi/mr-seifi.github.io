@@ -1444,9 +1444,9 @@ input[data-description="2024"]:checked ~ #timeline-descriptions-wrapper p[data-d
  @media (min-width: 1250px) {
   .input-flex-container {
     margin-left: 62.5px; }
-  input::before {
+    .info-input::before {
     left: -37.5px; }
-  input::after {
+    .info-input::after {
     right: -37.5px; }
   .dot-info {
     left: calc((((1000px - 25px) / 20) * -1) - 1px); }
@@ -1461,23 +1461,22 @@ input[data-description="2024"]:checked ~ #timeline-descriptions-wrapper p[data-d
     justify-content: center;
     width: 400px;
     height: auto;
-    /* margin-top: 15vh; */
     margin-left: 0;
     padding-bottom: 30px; }
-  input, .dot-info {
+    .info-input, .dot-info {
     width: 60px;
     height: 60px;
     margin: 0 10px 50px; }
-  input {
+    .info-input {
     background-color: transparent !important;
     z-index: 1; }
-    input::before, input::after {
+    .info-input::before, input::after {
       content: none; }
-    input:checked + .dot-info {
+      .info-input:checked + .dot-info {
       background-color: #fff; }
-      input:checked + .dot-info span.year {
+      .info-input:checked + .dot-info span.year {
         font-size: 10px; }
-      input:checked + .dot-info span.label {
+        .info-input:checked + .dot-info span.label {
         font-size: 8px; 
       visibility: hidden;
     }
@@ -1486,8 +1485,8 @@ input[data-description="2024"]:checked ~ #timeline-descriptions-wrapper p[data-d
     border-radius: 100%;
     z-index: 0;
     left: 0;
-    margin-left: -60px;
-    margin-top: 60px;
+    margin-left: -65px;
+    margin-top: 55px;
     background-color: #fff; }
     .dot-info span.year {
       top: 0;
@@ -1510,7 +1509,58 @@ input[data-description="2024"]:checked ~ #timeline-descriptions-wrapper p[data-d
   #timeline-descriptions-wrapper {
     margin-top: 20px;
     margin-left: 0;
-    text-align: center; } }
+    text-align: center; }
+  
+    input[data-description="2002"]:checked ~ #timeline-descriptions-wrapper p[data-description="2002"] {
+      display: block;
+    font-size: 20px;
+    font-weight: 600; }
+    
+    input[data-description="2017"]:checked ~ #timeline-descriptions-wrapper p[data-description="2017"] {
+      display: block; 
+      font-size: 20px;
+      font-weight: 600;}
+    
+    input[data-description="2018"]:checked ~ #timeline-descriptions-wrapper p[data-description="2018"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+    
+    input[data-description="2020"]:checked ~ #timeline-descriptions-wrapper p[data-description="2020"] {
+      display: block; 
+      font-size: 20px;
+      font-weight: 600;}
+    
+    input[data-description="2021"]:checked ~ #timeline-descriptions-wrapper p[data-description="2021"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+    
+    input[data-description="2021.5"]:checked ~ #timeline-descriptions-wrapper p[data-description="2021.5"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+    
+    input[data-description="2022"]:checked ~ #timeline-descriptions-wrapper p[data-description="2022"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+    
+    input[data-description="2023"]:checked ~ #timeline-descriptions-wrapper p[data-description="2023"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+    
+    input[data-description="2023.5"]:checked ~ #timeline-descriptions-wrapper p[data-description="2023.5"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+    
+    input[data-description="2024"]:checked ~ #timeline-descriptions-wrapper p[data-description="2024"] {
+      display: block;
+      font-size: 20px;
+      font-weight: 600; }
+  }
 
 @media (max-width: 480px) {
   .input-flex-container {
