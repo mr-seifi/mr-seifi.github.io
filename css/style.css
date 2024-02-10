@@ -962,6 +962,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-video {
   overflow: hidden;
+  transform:scaleY(0.92);
+  transform-origin:top;
 }
 /* @media screen and (max-width: 992px) {
   .fh5co-video {
