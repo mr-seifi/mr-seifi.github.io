@@ -1391,52 +1391,52 @@ input[type=text] {
     margin-top: 0;
     display: none; }
 
-input[data-description="1910"]:checked ~ #timeline-descriptions-wrapper p[data-description="1910"] {
+input[data-description="2002"]:checked ~ #timeline-descriptions-wrapper p[data-description="2002"] {
   display: block;
 font-size: 28px;
 font-weight: 600; }
 
-input[data-description="1920"]:checked ~ #timeline-descriptions-wrapper p[data-description="1920"] {
+input[data-description="2017"]:checked ~ #timeline-descriptions-wrapper p[data-description="2017"] {
   display: block; 
   font-size: 28px;
   font-weight: 600;}
 
-input[data-description="1930"]:checked ~ #timeline-descriptions-wrapper p[data-description="1930"] {
+input[data-description="2018"]:checked ~ #timeline-descriptions-wrapper p[data-description="2018"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
 
-input[data-description="1940"]:checked ~ #timeline-descriptions-wrapper p[data-description="1940"] {
+input[data-description="2020"]:checked ~ #timeline-descriptions-wrapper p[data-description="2020"] {
   display: block; 
   font-size: 28px;
   font-weight: 600;}
 
-input[data-description="1950"]:checked ~ #timeline-descriptions-wrapper p[data-description="1950"] {
+input[data-description="2021"]:checked ~ #timeline-descriptions-wrapper p[data-description="2021"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
 
-input[data-description="1960"]:checked ~ #timeline-descriptions-wrapper p[data-description="1960"] {
+input[data-description="2021.5"]:checked ~ #timeline-descriptions-wrapper p[data-description="2021.5"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
 
-input[data-description="1970"]:checked ~ #timeline-descriptions-wrapper p[data-description="1970"] {
+input[data-description="2022"]:checked ~ #timeline-descriptions-wrapper p[data-description="2022"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
 
-input[data-description="1980"]:checked ~ #timeline-descriptions-wrapper p[data-description="1980"] {
+input[data-description="2023"]:checked ~ #timeline-descriptions-wrapper p[data-description="2023"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
 
-input[data-description="1990"]:checked ~ #timeline-descriptions-wrapper p[data-description="1990"] {
+input[data-description="2023.5"]:checked ~ #timeline-descriptions-wrapper p[data-description="2023.5"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
 
-input[data-description="2000"]:checked ~ #timeline-descriptions-wrapper p[data-description="2000"] {
+input[data-description="2024"]:checked ~ #timeline-descriptions-wrapper p[data-description="2024"] {
   display: block;
   font-size: 28px;
   font-weight: 600; }
